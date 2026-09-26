@@ -1,11 +1,9 @@
 from fastapi import FastAPI
 
 app = FastAPI()
-
 @app.get("/")
-def home():
+def get_apps():
     return {
-        "message" : "hello from fastapi",
-        "message2" : "bitun is a good boy"
+        "message"  : "message upgraded sucessfully"
     }
 
