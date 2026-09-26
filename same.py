@@ -6,6 +6,6 @@ app = FastAPI()
 def home():
     return {
         "message" : "hello from fastapi",
-        "message" : "bitun is a good boy"
+        "message2" : "bitun is a good boy"
     }
 
